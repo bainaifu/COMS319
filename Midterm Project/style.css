@@ -102,3 +102,40 @@
     background-color: #5b3f2643;
     margin: 10px 30% 10px 30%;
 }
+
+.sidebar-name {
+    color: rgb(128, 101, 66); 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 1.5%;
+}
+
+.column-product {
+    padding-right: 0%;
+    position: relative;
+    width: 65%;
+    float: left;
+}
+
+.column-sidebar {
+    margin: 20px;
+    position: relative;
+    width: 20%;
+    float: left;
+}
+
+.card-body h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.card-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.seeds-image {
+    height: 200px;
+    width: 200px;
+}
