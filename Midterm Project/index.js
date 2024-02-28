@@ -49,3 +49,55 @@ function loadTools(myTools) {
         mainContainer.appendChild(div);
     }
 }
+
+fetch("./data.json")
+    .then(response => response.json())
+    .then(myFertilizers => loadFertilizers(myFertilizers));
+function loadFertilizers(myFertilizers) {
+    console.log(myFertilizers);
+    var mainContainer = document.getElementById("row-product-fertilizers");
+    console.log(mainContainer);
+    let fertilizers = myFertilizers['fertilizers'];
+    for (let fertilizer of fertilizers) {
+        console.log(fertilizer);
+        let div = document.createElement("div");
+        div.innerHTML = `<br>
+        <div class="col">
+                        <div class="card" style="box-shadow: none; border: 0cap;">
+                            <img class='seeds-image' src=${fertilizer.url} alt=${fertilizer.description}>
+                            <div class="card-body">
+                                <h6>${fertilizer.description}</h6>
+                                <p class="card-text">${fertilizer.price}</p>
+                            </div>
+                        </div>
+                    </div>
+        `;
+        mainContainer.appendChild(div);
+    }
+}
+
+fetch("./data.json")
+    .then(response => response.json())
+    .then(mySoils => loadSoils(mySoils));
+function loadSoils(mySoils) {
+    console.log(mySoils);
+    var mainContainer = document.getElementById("row-product-soils");
+    console.log(mainContainer);
+    let soils = mySoils['soils'];
+    for (let soil of soils) {
+        console.log(soil);
+        let div = document.createElement("div");
+        div.innerHTML = `<br>
+        <div class="col">
+                        <div class="card" style="box-shadow: none; border: 0cap;">
+                            <img class='seeds-image' src=${soil.url} alt=${soil.description}>
+                            <div class="card-body">
+                                <h6>${soil.description}</h6>
+                                <p class="card-text">${soil.price}</p>
+                            </div>
+                        </div>
+                    </div>
+        `;
+        mainContainer.appendChild(div);
+    }
+}

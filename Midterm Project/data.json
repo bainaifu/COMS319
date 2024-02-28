@@ -111,5 +111,119 @@
             "price": "$89.99",
             "url": "./images/Tools/digging-fork.webp"
         }
+    ],
+
+    "fertilizers": [
+        {
+            "productId": "AA734",
+            "description": "All-Purpose Organic Fertilizer",
+            "price": "$44.99",
+            "url": "./images/Fertilizers/fertilizer1.webp"
+        },
+        {
+            "productId": "P0188",
+            "description": "Tomato, Vegetable & Herb Fertilizer",
+            "price": "$16.99",
+            "url": "./images/Fertilizers/fertilizer2.webp"
+        },
+        {
+            "productId": "B3742",
+            "description": "Berry Fertilizer",
+            "price": "$9.99",
+            "url": "./images/Fertilizers/fertilizer3.webp"
+        },
+        {
+            "productId": "SA754",
+            "description": "Seaweed Fertilizer",
+            "price": "$24.99",
+            "url": "./images/Fertilizers/fertilizer4.webp"
+        },
+        {
+            "productId": "F0955",
+            "description": "Flower Fertilizer",
+            "price": "319.99",
+            "url": "./images/Fertilizers/fertilizer5.webp"
+        },
+        {
+            "productId": "TT912",
+            "description": "Tomato Fertilizer",
+            "price": "$14.99",
+            "url": "./images/Fertilizers/fertilizer6.webp"
+        },
+        {
+            "productId": "PL45",
+            "description": "Bio-tone Starter Plus Plant Food",
+            "price": "$14.99",
+            "url": "./images/Fertilizers/plant-food1.webp"
+        },
+        {
+            "productId": "H723",
+            "description": "Harvest Crab & Lobster Shell Plant Food",
+            "price": "$19.99",
+            "url": "./images/Fertilizers/plant-food2.webp"
+        },
+        {
+            "productId": "LR378",
+            "description": "All Purpose Plant Food",
+            "price": "$16.99",
+            "url": "./images/Fertilizers/plant-food3.webp"
+        }
+    ],
+
+    "soils": [
+        {
+            "productId": "S123",
+            "description": "Fort Vee Potting Mix",
+            "price": "$27.99",
+            "url": "./images/Soils/potting-mix1.webp"
+        },
+        {
+            "productId": "S456",
+            "description": "Self-Watering Potting Mix",
+            "price": "$16.99",
+            "url": "./images/Soils/potting-mix2.webp"
+        },
+        {
+            "productId": "S789",
+            "description": "Transplant Mix",
+            "price": "$16.99",
+            "url": "./images/Soils/potting-mix3.webp"
+        },
+        {
+            "productId": "TX526",
+            "description": "Container Tomato Mix",
+            "price": "$29.99",
+            "url": "./images/Soils/potting-mix4.webp"
+        },
+        {
+            "productId": "SX376",
+            "description": "Seed Starting Mix,",
+            "price": "$12.99",
+            "url": "./images/Soils/potting-mix5.webp"
+        },
+        {
+            "productId": "SX789",
+            "description": "Potting Mix,",
+            "price": "16.99",
+            "url": "./images/Soils/potting-mix6.webp"
+        },
+        {
+            "productId": "CX678",
+            "description": "Coco Coir Potting Mix",
+            "price": "$9.99",
+            "url": "./images/Soils/potting-mix7.webp"
+        },
+        {
+            "productId": "BX0922",
+            "description": "Bed Potting Mix",
+            "price": "$22.99",
+            "url": "./images/Soils/potting-mix8.webp"
+        },
+        {
+            "productId": "CC230",
+            "description": "Coco Coir Seed Starting Mix",
+            "price": "$9.99",
+            "url": "./images/Soils/potting-mix9.webp"
+        }
     ]
 }
