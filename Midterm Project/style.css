@@ -122,6 +122,13 @@ body {
     float: left;
 }
 
+.column-tip {
+    padding-right: 0%;
+    position: relative;
+    width: 75%;
+    float: left;
+}
+
 .column-sidebar {
     margin: 20px;
     position: relative;
