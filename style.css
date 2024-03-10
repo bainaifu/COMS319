@@ -125,6 +125,13 @@ body {
     border-radius: 3em;
 }
 
+.column-tip {
+    padding-right: 0%;
+    position: relative;
+    width: 75%;
+    float: left;
+}
+
 .nav-link-inactive {
     color: rgb(128, 101, 66);
     text-decoration: none;
