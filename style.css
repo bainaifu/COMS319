@@ -1,0 +1,257 @@
+body {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.fs-4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: #818181;
+    line-height: 0.7;
+    text-align: center;
+    color: green;
+    font-size: xx-large;
+    align-self: center;;
+}
+
+.first-navbar {
+    margin: 0% 4% 0% 4%;
+}
+
+.column {
+    margin: 0px 48px 0px 53px;
+    position: relative;
+    width: 25%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.horizontal {
+    margin: 0% 4% 3% 4%;
+    background-color: rgb(66, 128, 75);
+    height: 2px;
+    border: none;
+    opacity: 0.7;
+}
+
+.nav-image {
+    display: block;
+    width: 350px;
+    height: 155px;
+    border-radius: 25px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 350px;
+    height: 155px;
+    border-radius: 25px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #818181;
+    margin-left: 12px;
+}
+
+.column:hover .overlay {
+    opacity: 0.65;
+}
+
+.text {
+    color: white;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: double;
+    font-style: oblique;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.about-section {
+    padding: 50px;
+    margin-bottom: 1em;
+    text-align: center;
+    background-color: #7A9D54;
+    color: white;
+}
+
+.about-column {
+    width: 30%;
+    margin-left: 130px;
+    padding: 0px 8px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.hero {
+    margin: 20px;
+    width: 91%;
+    height: min-content;
+    align-content: end;
+}
+
+.subheader {
+    margin: 10px 30% 10px 30%;
+}
+
+.sidebar-name {
+    color: rgb(128, 101, 66);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 1.5%;
+}
+
+.nav-link-active {
+    background-color: rgb(128, 101, 66);
+    color: white;
+    text-decoration: none;
+    padding: 8px 8px 8px 32px;
+    display: block;
+    border-radius: 3em;
+}
+
+.nav-link-inactive {
+    color: rgb(128, 101, 66);
+    text-decoration: none;
+    padding: 8px 8px 8px 32px;
+    display: block;
+
+}
+
+.row {
+    margin-bottom: 2%;
+}
+
+.column-product {
+    padding-right: 0%;
+    position: relative;
+    width: 60%;
+    float: left;
+}
+
+.column-sidebar {
+    margin-left: 100px;
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.card-body h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.card-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.seeds-image {
+    height: 200px;
+    width: 200px;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+    letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+.article {
+    margin: 0% 4% 0% 4%;
+}
+
+.article h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 0% 12% 0% 12%;
+    font-weight: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.article h2 {
+    font-size: 30px;
+    font-style: italic;
+    margin: 0% 12% 0% 12%;
+}
+.article p {
+    font-size: 20px;
+    margin: 0% 12% 0% 12%;
+}
+
+.article-image{
+    margin: 0% 12% 0% 12%;
+    width: 300px;
+    height: 350px;
+}
+
+.article-ul li{
+    margin: 0% 12% 0% 12%;
+    font-size: 20px;
+}

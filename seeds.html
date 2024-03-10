@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seeds</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="first-navbar">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="index.html"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+                <span class="fs-4"><span style="font-size: 2cap;"><em>N & N</em></span><br>Gardener's</span>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page"
+                        style="background-color: green; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Home</a>
+                </li>
+            </ul>
+        </header>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img class="nav-image" src="./myotherimages/Garden Supplies.jpeg" alt="garden-supplies">
+            <a href="garden_supplies.html">
+                <div class="overlay">
+                    <div class="text">Garden Supplies</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="column">
+            <img class="nav-image" src="./myotherimages/Garden Tips.jpeg" alt="garden-tips">
+            <a href="tips.html">
+                <div class="overlay">
+                    <div class="text">Garden Tips</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="column">
+            <img class="nav-image" src="./myotherimages/About Us.jpeg" alt="about-us">
+            <a href="about_us.html">
+                <div class="overlay">
+                    <div class="text">About Us</div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <hr class="horizontal">
+    <div class="row">
+        <div class="column-sidebar">
+            <div class="side-bar">
+                <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-white"
+                    style="width: 280px; height: max-content;">
+                    <a href="garden_supplies.html"
+                        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <svg class="bi pe-none me-2" width="40" height="32">
+                            <use xlink:href="#bootstrap" />
+                        </svg>
+                        <span class="sidebar-name">Garden Supplies</span>
+                    </a>
+                    <hr>
+                    <ul class="nav nav-pills flex-column mb-auto">
+                        <li class="nav-item">
+                            <a href="seeds.html" class="nav-link-active" aria-current="page">
+                                <svg class="bi pe-none me-2" width="16" height="16">
+                                    <use xlink:href="seeds.html" />
+                                </svg>
+                                Seeds
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tools.html" class="nav-link-inactive ">
+                                <svg class="bi pe-none me-2" width="16" height="16">
+                                    <use xlink:href="tools.html" />
+                                </svg>
+                                Tools
+                            </a>
+                        </li>
+                        <li>
+                            <a href="fertilizers.html" class="nav-link-inactive ">
+                                <svg class="bi pe-none me-2" width="16" height="16">
+                                    <use xlink:href="fertilizers.html" />
+                                </svg>
+                                Fertilizers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="soils.html" class="nav-link-inactive ">
+                                <svg class="bi pe-none me-2" width="16" height="16">
+                                    <use xlink:href="soils.html" />
+                                </svg>
+                                Soils
+                            </a>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="column-product">
+            <div id="content">
+                <div id="row-product-seeds" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                </div>
+                <script src="./index.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="./garden_supplies.html" class="nav-link px-2 text-body-secondary">Garden
+                Supplies</a></li>
+        <li class="nav-item"><a href="./tips.html" class="nav-link px-2 text-body-secondary">Garden Tips</a></li>
+        <li class="nav-item"><a href="./about_us.html" class="nav-link px-2 text-body-secondary">About Us</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">&copy; 2024 Nhu&Naifu</p>
+</footer>
+
+</html>
